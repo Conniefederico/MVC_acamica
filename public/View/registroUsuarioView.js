@@ -35,3 +35,5 @@ document.getElementById('registerButton')
 
         return [username, pass, passValidation, email];
     }
+
+    //nueva funcionalidad

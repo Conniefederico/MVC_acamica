@@ -18,8 +18,7 @@ UsuarioModel.prototype
         let usuarios = localStorage.getItem('usuarios') || "[]";
         // if(localStorage.get('usuarios') == undefined) {
         //     usuarios = [];
-        // }
-
+        // }        
         //paso 2: lo convierto a array
         usuarios = JSON.parse(usuarios);
 
